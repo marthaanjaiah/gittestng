@@ -20,6 +20,7 @@ public class hrmtc1 {
 public void openbro(){
 	System.setProperty("webdriver.chrome.driver","D:\\seleniumjars\\chromedriver.exe");
 	dr=new ChromeDriver();
+	System.out.println("a");
 }
 @Test
 public void loginhrm(){
